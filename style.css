@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  padding: 23px 40px;
+}
+section .title{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 50px;
+  
+}
+section .text{
+  font-weight: 300;
+}
+section .text h3 span{
+  color: green;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #ff0157;
+  display: inline-block;
+  padding: 10px 65px;
+  margin-top: 20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover
+{
+  background-color: green;
+}
+section .att{
+  text-align: center;
+  font-size: 45px;
+  margin: 10px 0;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 890px){
+  section{
+    padding: 18px 25px;
+  }
+  section .title{
+    font-size: 30px;
+  }
+  section .text{
+    margin: 7px 0;
+  }
+  .btn{
+    padding: 10px 26px;
+  }
+}
